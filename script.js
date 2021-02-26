@@ -9,6 +9,12 @@ $(function() {
  });
 
 $(function() {
+  $('#title').click(function() {
+    $('#titlelight').addClass("full");
+  });
+ });
+
+$(function() {
   $('#sub').hover(function() {
     $('#sublight').css('opacity', '100%');
   }, function() {

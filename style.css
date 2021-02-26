@@ -1,8 +1,6 @@
 body {
 	cursor: url(blue.png), auto;
 }
-
-
 .column {
 	float: left;
 	width: 44%;
@@ -155,7 +153,6 @@ body {
 }
 #next:hover {
 	opacity: 100%;
-	cursor: url(blue.png), auto;
 }
 
 #line1light {
@@ -220,107 +217,48 @@ body {
 @media only screen and (max-width: 600px) {
 
 .column {
-	position: absolute;
 	width: 90%;
+	position: absolute;
 }
 
 .heads {
 	opacity: 15%;
+	z-index: 1;
 }
 
 #info {
 	opacity: 15%;
+	z-index: 1;
 }
 
 #titlelight {
 	opacity: 0%;
+	z-index: -1;
 }
 #sublight {
 	opacity: 0%;
+	z-index: -1;
 }
 #infolight {
 	opacity: 0%;
+	z-index: -1;
 }
 
 .main {
 	opacity: 15%;
+	z-index: 1;
 }
 .mainlight {
 	opacity: 0%;
+	z-index: -1;
 }
 #next {
 	opacity: 100%;
 	margin-left: 80%;
 }
 
-#titlelight:hover {
-	opacity: 100%;
-}
-#sublight:hover {
-	opacity: 100%;
-}
-#infolight:hover {
-	opacity: 100%;
-}
-
-#line1light:hover {
-	opacity: 100%;
-}
-#line2light:hover {
-	opacity: 100%;
-}
-#line3light:hover{
-	opacity: 100%;
-}
-#line4light:hover{
-	opacity: 100%;
-}
-#line5light:hover{
-	opacity: 100%;
-}
-#line6light:hover{
-	opacity: 100%;
-}
-#line7light:hover{
-	opacity: 100%;
-}
-#line8light:hover{
-	opacity: 100%;
-}
-#line9light:hover{
-	opacity: 100%;
-}
-#line10light:hover{
-	opacity: 100%;
-}
-#line11light:hover{
-	opacity: 100%;
-}
-#line12light:hover{
-	opacity: 100%;
-}
-#line13light:hover{
-	opacity: 100%;
-}
-#line14light:hover{
-	opacity: 100%;
-}
-#line15light:hover{
-	opacity: 100%;
-}
-#line16light:hover{
-	opacity: 100%;
-}
-#line17light:hover{
-	opacity: 100%;
-}
-#line18light:hover{
-	opacity: 100%;
-}
-#line19light:hover{
-	opacity: 100%;
-}
-
+.full {
+	opacity: 100%
 }
 
 
