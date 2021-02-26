@@ -221,111 +221,111 @@ body {
 
 .column {
 	position: absolute;
-	width: 100%;
+	width: 90%;
 }
 
 .heads {
 	opacity: 15%;
-	z-index: 1;
+	z-index: -1;
 }
 
 #info {
 	opacity: 15%;
-	z-index: 1;
+	z-index: -1;
 }
 
 #titlelight {
 	opacity: 0%;
-	z-index: -1;
+	z-index: 1;
 }
 #sublight {
 	opacity: 0%;
-	z-index: -1;
+	z-index: 1;
 }
 #infolight {
 	opacity: 0%;
-	z-index: -1;
+	z-index: 1;
 }
 
 .main {
 	opacity: 15%;
-	z-index: 1;
+	z-index: -1;
 }
 .mainlight {
 	opacity: 0%;
-	z-index: -1;
+	z-index: 1;
 }
 #next {
 	opacity: 100%;
 	margin-left: 80%;
 }
 
-#title:click {
-	opacity: 0%;
+#titlelight:hover {
+	opacity: 100%;
 }
-#sub:click {
-	opacity: 0%;
+#sublight:hover {
+	opacity: 100%;
 }
-#info:click {
-	opacity: 0%;
+#infolight:hover {
+	opacity: 100%;
 }
 
-#line1:click{
-	opacity: 0%;
+#line1light:hover {
+	opacity: 100%;
 }
-#line2:click{
-	opacity: 0%;
+#line2light:hover {
+	opacity: 100%;
 }
-#line3:click{
-	opacity: 0%;
+#line3light:hover{
+	opacity: 100%;
 }
-#line4:click{
-	opacity: 0%;
+#line4light:hover{
+	opacity: 100%;
 }
-#line5:click{
-	opacity: 0%;
+#line5light:hover{
+	opacity: 100%;
 }
-#line6:click{
-	opacity: 0%;
+#line6light:hover{
+	opacity: 100%;
 }
-#line7:click{
-	opacity: 0%;
+#line7light:hover{
+	opacity: 100%;
 }
-#line8:click{
-	opacity: 0%;
+#line8light:hover{
+	opacity: 100%;
 }
-#line9:click{
-	opacity: 0%;
+#line9light:hover{
+	opacity: 100%;
 }
-#line10:click{
-	opacity: 0%;
+#line10light:hover{
+	opacity: 100%;
 }
-#line11:click{
-	opacity: 0%;
+#line11light:hover{
+	opacity: 100%;
 }
-#line12:click{
-	opacity: 0%;
+#line12light:hover{
+	opacity: 100%;
 }
-#line13:click{
-	opacity: 0%;
+#line13light:hover{
+	opacity: 100%;
 }
-#line14:click{
-	opacity: 0%;
+#line14light:hover{
+	opacity: 100%;
 }
-#line15:click{
-	opacity: 0%;
+#line15light:hover{
+	opacity: 100%;
 }
-#line16:click{
-	opacity: 0%;
+#line16light:hover{
+	opacity: 100%;
 }
-#line17:click{
-	opacity: 0%;
+#line17light:hover{
+	opacity: 100%;
 }
-#line18:click{
-	opacity: 0%;
+#line18light:hover{
+	opacity: 100%;
 }
-#line19:click{
-	opacity: 0%;
+#line19light:hover{
+	opacity: 100%;
 }
 
 }
