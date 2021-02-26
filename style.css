@@ -226,34 +226,27 @@ body {
 
 .heads {
 	opacity: 15%;
-	z-index: -1;
 }
 
 #info {
 	opacity: 15%;
-	z-index: -1;
 }
 
 #titlelight {
 	opacity: 0%;
-	z-index: 1;
 }
 #sublight {
 	opacity: 0%;
-	z-index: 1;
 }
 #infolight {
 	opacity: 0%;
-	z-index: 1;
 }
 
 .main {
 	opacity: 15%;
-	z-index: -1;
 }
 .mainlight {
 	opacity: 0%;
-	z-index: 1;
 }
 #next {
 	opacity: 100%;
