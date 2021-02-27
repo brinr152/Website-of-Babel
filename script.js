@@ -1,16 +1,14 @@
 $(document).ready(function() {
 
-$(function() {
+  $("#titlelight").hover(function(){
+  $("#titlelight").addClass("full");
+});
+
+  $(function() {
   $('#title').hover(function() {
     $('#titlelight').css('opacity', '100%');
   }, function() {
     $('#titlelight').css('opacity', '');
-  });
- });
-
-$(function() {
-  $('#title').click(function() {
-    $('#titlelight').addClass("full");
   });
  });
 

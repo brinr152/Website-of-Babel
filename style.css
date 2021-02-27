@@ -1,6 +1,7 @@
 body {
 	cursor: url(blue.png), auto;
 }
+
 .column {
 	float: left;
 	width: 44%;
@@ -213,44 +214,51 @@ body {
 	opacity: 15%;
 }
 
+.read {
+	opacity: 100%;
+}
 
 @media only screen and (max-width: 600px) {
 
+.full {
+	opacity: 100% important!; 
+}
 .column {
 	width: 90%;
 	position: absolute;
 }
 
-.heads {
+#title {
 	opacity: 15%;
-	z-index: 1;
+	pointer-events: none;
+}
+#sub {
+	opacity: 15%;
+}
+#info {
+	opacity: 15%;
 }
 
 #info {
 	opacity: 15%;
-	z-index: 1;
 }
 
 #titlelight {
 	opacity: 0%;
-	z-index: -1;
+	z-index: 2;
 }
 #sublight {
 	opacity: 0%;
-	z-index: -1;
 }
 #infolight {
 	opacity: 0%;
-	z-index: -1;
 }
 
 .main {
 	opacity: 15%;
-	z-index: 1;
 }
 .mainlight {
 	opacity: 0%;
-	z-index: -1;
 }
 #next {
 	opacity: 100%;
@@ -260,5 +268,6 @@ body {
 .full {
 	opacity: 100%
 }
+
 
 
