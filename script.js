@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-  $("#titlelight").hover(function(){
-  $("#titlelight").addClass("full");
-});
-
   $(function() {
   $('#title').hover(function() {
     $('#titlelight').css('opacity', '100%');

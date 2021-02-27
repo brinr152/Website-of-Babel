@@ -220,54 +220,226 @@ body {
 
 @media only screen and (max-width: 600px) {
 
-.full {
-	opacity: 100% important!; 
+	body {
+	cursor: url(blue.png), auto;
 }
+
 .column {
-	width: 90%;
+	float: left;
+	width: 95%;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 50px;
 	position: absolute;
 }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.light {
+	opacity: 100%;
+}
 
+.heads {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #2457BA;
+	opacity: 15%;
+}
 #title {
-	opacity: 15%;
-	pointer-events: none;
+	font-size: 65pt;
+	line-height: 100%;
 }
+#titlelight:hover {
+	opacity: 100%;
+}
+
 #sub {
-	opacity: 15%;
+	margin-top: 3%;
+	font-size: 40pt;
 }
-#info {
-	opacity: 15%;
+#sublight:hover {
+	opacity: 100%;
 }
 
 #info {
-	opacity: 15%;
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 25pt;
+}
+#infolight:hover {
+	opacity: 100%;
 }
 
 #titlelight {
-	opacity: 0%;
-	z-index: 2;
+	font-size: 65pt;
+	line-height: 100%;
+	opacity: 15%;
 }
 #sublight {
-	opacity: 0%;
+	margin-top: 3%;
+	font-size: 40pt;
+	opacity: 15%;
 }
 #infolight {
-	opacity: 0%;
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 25pt;
+	opacity: 15%;
 }
 
 .main {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #2457BA;
+	font-size: 15pt;
 	opacity: 15%;
 }
-.mainlight {
-	opacity: 0%;
-}
-#next {
+
+
+#line1light:hover{
 	opacity: 100%;
+}
+#line2light:hover{
+	opacity: 100%;
+}
+#line3light:hover{
+	opacity: 100%;
+}
+#line4light:hover{
+	opacity: 100%;
+}
+#line5light:hover{
+	opacity: 100%;
+}
+#line6light:hover{
+	opacity: 100%;
+}
+#line7light:hover{
+	opacity: 100%;
+}
+#line8light:hover{
+	opacity: 100%;
+}
+#line9light:hover{
+	opacity: 100%;
+}
+#line10light:hover{
+	opacity: 100%;
+}
+#line11light:hover{
+	opacity: 100%;
+}
+#line12light:hover{
+	opacity: 100%;
+}
+#line13light:hover{
+	opacity: 100%;
+}
+#line14light:hover{
+	opacity: 100%;
+}
+#line15light:hover{
+	opacity: 100%;
+}
+#line16light:hover{
+	opacity: 100%;
+}
+#line17light:hover{
+	opacity: 100%;
+}
+#line18light:hover{
+	opacity: 100%;
+}
+#line19light:hover{
+	opacity: 100%;
+}
+.mainlight {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #2457BA;
+	font-size: 15pt;
+}
+
+#next {
+	font-family: forma-djr-deck, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #2457BA;
+	opacity: 15%;
 	margin-left: 80%;
+	font-size: 25pt;
+	float: left;
+}
+#next:hover {
+	opacity: 100%;
 }
 
-.full {
-	opacity: 100%
+#line1light {
+	opacity: 15%;
+}
+#line2light {
+	opacity: 15%;
+}
+#line3light {
+	opacity: 15%;
+}
+#line4light {
+	opacity: 15%;
+}
+#line5light {
+	opacity: 15%;
+}
+#line6light {
+	opacity: 15%;
+}
+#line7light {
+	opacity: 15%;
+}
+#line8light {
+	opacity: 15%;
+}
+#line9light {
+	opacity: 15%;
+}
+#line10light {
+	opacity: 15%;
+}
+#line11light {
+	opacity: 15%;
+}
+#line12light {
+	opacity: 15%;
+}
+#line13light {
+	opacity: 15%;
+}
+#line14light {
+	opacity: 15%;
+}
+#line15light {
+	opacity: 15%;
+}
+#line16light {
+	opacity: 15%;
+}
+#line17light {
+	opacity: 15%;
+}
+#line18light {
+	opacity: 15%;
+}
+#line19light {
+	opacity: 15%;
 }
 
-
+.read {
+	opacity: 100%;
+}
 
