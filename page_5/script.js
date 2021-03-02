@@ -192,4 +192,12 @@ $(function() {
   });
  });
 
+$(function() {
+  $('#line24').hover(function() {
+    $('#line24light').css('opacity', '100%');
+  }, function() {
+    $('#line24light').css('opacity', '');
+  });
+ });
+
 });

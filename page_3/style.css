@@ -91,6 +91,9 @@ body {
 	color: #D23939;
 	font-size: 15pt;
 }
+.small {
+	font-size: 10pt;
+}
 #line1:hover{
 	opacity: 15%;
 }
@@ -152,6 +155,9 @@ body {
 	opacity: 15%;
 }
 #line21:hover{
+	opacity: 15%;
+}
+#line22:hover{
 	opacity: 15%;
 }
 .mainlight {
@@ -277,6 +283,9 @@ body {
 #line21light {
 	opacity: 15%;
 }
+#line22light {
+	opacity: 15%;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -368,6 +377,9 @@ body {
 	opacity: 100%;
 }
 #line21light:hover{
+	opacity: 100%;
+}
+#line22light:hover{
 	opacity: 100%;
 }
 .mainlight {
@@ -466,6 +478,9 @@ body {
 	opacity: 15%;
 }
 #line21light {
+	opacity: 15%;
+}
+#line22light {
 	opacity: 15%;
 }
 

@@ -176,4 +176,12 @@ $(function() {
   });
  });
 
+$(function() {
+  $('#line22').hover(function() {
+    $('#line22light').css('opacity', '100%');
+  }, function() {
+    $('#line22light').css('opacity', '');
+  });
+ });
+
 });

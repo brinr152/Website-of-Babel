@@ -152,4 +152,12 @@ $(function() {
   });
  });
 
+$(function() {
+  $('#line16').hover(function() {
+    $('#line16light').css('opacity', '100%');
+  }, function() {
+    $('#line16light').css('opacity', '');
+  });
+ });
+
 });
